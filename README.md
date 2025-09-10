@@ -16,6 +16,38 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
    npx expo start
    ```
 
+**Using `bun`**
+
+1. Install bun
+
+   ```bash
+   curl -fsSL https://bun.sh/install | bash
+   ```
+
+   on Mac/Linux and
+
+   ```bash
+   powershell -c "irm bun.sh/install.ps1 | iex"
+   ```
+
+2. Test `bun` installation
+
+   ```bash
+   bun --version
+   ```
+
+3. Install dependencies
+
+   ```bash
+   bun i
+   ```
+
+4. Run the motera mobile app
+
+   ```bash
+   bun expo start --web
+   ```
+
 In the output, you'll find options to open the app in a
 
 - [development build](https://docs.expo.dev/develop/development-builds/introduction/)
